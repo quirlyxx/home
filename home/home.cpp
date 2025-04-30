@@ -28,7 +28,7 @@ Person::~Person() {
 }
 
 void Person::output() const {
-    std::cout << "Name: " << (name ? name : "No Name") << ", Age: " << age << "\n";
+    std::cout << "Name: " << (name ? name : "no name") << ", Age: " << age << "\n";
 }
 
 Apartment::Apartment() : people(nullptr), personCount(0) {}

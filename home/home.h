@@ -10,6 +10,7 @@ public:
     Person();
     Person(const char* name, int age);
     Person(const Person& other);
+
     Person& operator=(const Person& other);
     ~Person();
 
@@ -25,6 +26,7 @@ public:
     Apartment();
     Apartment(int count);
     Apartment(const Apartment& other);
+
     Apartment& operator=(const Apartment& other);
     ~Apartment();
 
@@ -40,6 +42,7 @@ public:
     House();
     House(int count);
     House(const House& other);
+
     House& operator=(const House& other);
     ~House();
 
